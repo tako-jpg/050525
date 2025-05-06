@@ -18,7 +18,7 @@ public class Main {
         }
         System.out.println("Задача 5");
         for (int i = 1904; i <= 2096; i = i + 4) {
-            System.out.println(i);
+            System.out.println(i + " год является високосным");
         }
         System.out.println("Задача 6");
         for (int i = 7; i <= 98; i = i + 7) {
@@ -39,8 +39,8 @@ public class Main {
         int salery = 29000;
         int Accumulation = 0;
         for (int mothOne = 1; mothOne <= 12; mothOne++) {
-            Accumulation = Accumulation + Accumulation / 100;
             Accumulation += salery;
+            Accumulation = Accumulation + Accumulation / 100;
             System.out.println("Месяц " + mothOne + " , сумма накоплений равна " + Accumulation + " рублей");
         }
         System.out.println("Задача 10");
