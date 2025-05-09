@@ -47,5 +47,10 @@ public class Main {
         for (int number = 1; number <= 10; number++) {
             System.out.println("2 * " + number + " = " + number * 2);
         }
+        System.out.println("Циклы. Урок 2");
+        System.out.println("Задача 1");
+        for (int number = 1; number <= 10; number++) {
+            System.out.println("2 * " + number + " = " + number * 2);
+        }
     }
 }
